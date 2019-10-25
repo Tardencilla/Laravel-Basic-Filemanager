@@ -1,0 +1,33 @@
+{
+  "name": "dar3y/filemanager",
+  "description": "Laravel Basic Filemanager",
+  "keywords": ["file", "manager", "laravel 6"],
+  "homepage": "https://github.com/Tardencilla/Laravel-Basic-Filemanager",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Damián Tardencilla",
+      "email": "dtardencilla@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.2",
+    "chumper/zipper": "1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Dar3y\\FileManager\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Dar3y\\FileManager\\FileManagerServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev"
+}
